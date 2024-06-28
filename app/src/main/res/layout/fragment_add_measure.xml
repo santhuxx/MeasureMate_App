@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".NewMeasureFragment"
+        android:padding="12dp"
+        android:background="@color/white">
+
+
+        <TextView
+            android:id="@+id/addMeasureHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/poppins"
+            android:text="Add Measurements"
+            android:textColor="#003022"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/addCusName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Customer name"
+            android:padding="9dp"
+            android:textSize="18sp"
+            android:layout_below="@id/addMeasureHeading"
+
+            android:layout_marginTop="16dp"
+            android:maxLines="1"
+            android:fontFamily="@font/poppins"/>
+
+        <EditText
+            android:id="@+id/addMobile"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Customer mobile"
+            android:padding="9dp"
+            android:textSize="18sp"
+            android:layout_below="@id/addCusName"
+
+            android:layout_marginTop="8dp"
+            android:maxLines="1"
+            android:fontFamily="@font/poppins"/>
+
+        <EditText
+            android:id="@+id/addCloth"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Cloth type"
+            android:padding="9dp"
+            android:textSize="18sp"
+            android:layout_below="@id/addMobile"
+            android:layout_marginTop="8dp"
+            android:maxLines="1"
+            android:fontFamily="@font/poppins"/>
+
+        <EditText
+            android:id="@+id/addOrderedDate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Ordered date"
+            android:padding="9dp"
+            android:textSize="18sp"
+            android:layout_below="@id/addCloth"
+            android:layout_marginTop="8dp"
+            android:maxLines="1"
+            android:fontFamily="@font/poppins"/>
+
+        <EditText
+            android:id="@+id/addDeliverDate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Deliver date"
+            android:padding="9dp"
+            android:textSize="18sp"
+            android:layout_below="@id/addOrderedDate"
+            android:layout_marginTop="8dp"
+            android:maxLines="1"
+            android:fontFamily="@font/poppins"/>
+
+
+        <EditText
+            android:id="@+id/addMeasurements"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hip-\nChest-\nHeight"
+            android:gravity="top"
+            android:padding="12dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins"
+            android:background="@drawable/border"
+            android:layout_below="@id/addDeliverDate"
+            android:layout_marginTop="8dp" />
+
+
+    </RelativeLayout>
+</layout>

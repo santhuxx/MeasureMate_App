@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MeasureMate</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_new_measurement">Add New Measurement.</string>
+    <string name="enter_the_name">Enter the name</string>
+    <string name="enter_the_measurements">Enter the measurements</string>
+    <string name="edit_measurements">Edit Measurements.</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="measurements">Measurements</string>
+    <string name="measure">Measure</string>
+    measure
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="12dp"
+        tools:context=".UpdateMeasureFragment"
+        android:background="@color/white">
+
+
+        <TextView
+            android:id="@+id/editMeasureHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/poppins"
+            android:text="Edit Measurements"
+            android:textColor="#003022"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editCusName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Customer name"
+            android:padding="9dp"
+            android:textSize="18sp"
+            android:layout_below="@id/editMeasureHeading"
+            android:layout_marginTop="16dp"
+            android:maxLines="1"
+            android:fontFamily="@font/poppins"/>
+
+        <EditText
+            android:id="@+id/editMobile"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Customer mobile"
+            android:padding="9dp"
+            android:textSize="18sp"
+            android:layout_below="@id/editCusName"
+            android:layout_marginTop="8dp"
+            android:maxLines="1"
+            android:fontFamily="@font/poppins"/>
+
+        <EditText
+            android:id="@+id/editCloth"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Cloth type"
+            android:padding="9dp"
+            android:textSize="18sp"
+            android:layout_below="@id/editMobile"
+            android:layout_marginTop="8dp"
+            android:maxLines="1"
+            android:fontFamily="@font/poppins"/>
+
+        <EditText
+            android:id="@+id/editOrderedDate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Ordered date"
+            android:padding="9dp"
+            android:textSize="18sp"
+            android:layout_below="@id/editCloth"
+            android:layout_marginTop="8dp"
+            android:maxLines="1"
+            android:fontFamily="@font/poppins"/>
+
+        <EditText
+            android:id="@+id/editDeliverDate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Deliver date"
+            android:padding="9dp"
+            android:textSize="18sp"
+            android:layout_below="@id/editOrderedDate"
+            android:layout_marginTop="8dp"
+            android:maxLines="1"
+            android:fontFamily="@font/poppins"/>
+
+
+        <EditText
+            android:id="@+id/editMeasurements"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hip-\nChest-\n"
+            android:gravity="top"
+            android:padding="12dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins"
+            android:background="@drawable/border"
+            android:layout_below="@id/editDeliverDate"
+            android:layout_marginTop="8dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/deleteMeasureFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:clickable="true"
+            android:backgroundTint="@color/dgreen"
+            android:tintMode="@color/white"
+            android:src="@drawable/baseline_edit_24"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="deleteFab" />
+
+
+    </RelativeLayout>
+</layout>
