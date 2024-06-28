@@ -40,5 +40,5 @@ MeasureMate is a mobile application developed for a tailoring shop to manage cus
 5. Retrieve and update customer information as needed.
 
 ## Contact
-For any inquiries, please contact me at [your-email@example.com](mailto:your-email@example.com).
+For any inquiries, please contact me at ksanthusha20@gmail.com
 
